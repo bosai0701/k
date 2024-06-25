@@ -76,7 +76,7 @@ var swave = L.circle([0, 0], {
 }).addTo(map);
 
 
-$(function () {setInterval})
+$(function () {setInterval}
     $.when(
         //$.getJSON(`https://weather-kyoshin.west.edge.storage-yahoo.jp/RealTimeData/${GetyyyyMMdd()}/${GetyyyyMMddHHmmss()}.json?${new Date().getTime()}`)
         //　↑　リアルタイムで描画させる時はこのように記述するが、PC内の時間との差により取得できない場合があるため調節が必要である。
